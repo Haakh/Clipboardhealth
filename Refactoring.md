@@ -19,3 +19,5 @@ Updated the code here:
 • reuse `createHash` Function as it's used more than once.
 
 • Move the stringify logic to `fetchCandidate` as it's value is assigned in this function only.
+
+• Add a `convertToString` function to handle all string type manipulations
