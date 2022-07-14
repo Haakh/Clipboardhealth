@@ -38,6 +38,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 
 **Acceptance criteria**: 
+
 • Form should be Responsive for all screen sizes.
 
 • Input Field should have a Red border when Input is Invalid with a clear red text error message mentioned in the description.
@@ -57,11 +58,13 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 **Title**: *UI -> API Integration for Custom Agent ID*
 
 **Description**: 
+
 • Call the API endpoint created in `ticket #3` on Click of submit button. 
 
 • Handle errors from the API and show a toast to the user on Submit if error occurs.
 
 **Acceptance criteria**: 
+
 • Api is called on Click of submit button
 
 • It should show a success toast on API success
@@ -79,15 +82,17 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 **Title**: Backend: Store Custom agent Id Attribute to DB 
 
 **Description**: 
+
 • Add a field `customAgentId` in the `Agents` Schema.
 
-• Add an API endpoint in the backend which accepts a new field `customAgentId` and `agent_id` and updates that agents data with new `customAgentId` value.
+• Add an API endpoint in the backend which accepts a new field `customAgentId` and `agent_id` and updates that agent's data with new `customAgentId` value.
 
 • return `true` on success
 
 • return `false` with error data object on failure.
 
 **Acceptance criteria**: 
+
 • Both `customAgentId` and `agent_id` are required
 
 • An error is returned when either props is not provided.
@@ -110,7 +115,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 • The new agent meta data returned should contain the `customAgentId`.
 
 
-**Blocked By**: Ticket #1, #2, #3
+**Blocked By**: Ticket #3
 
 **Story Points**: 5
 
@@ -118,7 +123,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ---
 
 ## Ticket 5
-**Title**: Modify `generateReport` to return new custom agent id
+**Title**: Modify `generateReport` to return new `customAgentId`
 
 **Description**: 
 
